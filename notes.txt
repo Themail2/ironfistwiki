@@ -1,0 +1,1 @@
+Work on designing the character display at the top of each page.

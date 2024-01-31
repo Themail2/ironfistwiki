@@ -22,19 +22,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="/index.html" class="w3-bar-item w3-button w3-theme-l1">IronFist Wiki</a>
+<div class="w3-bar w3-theme">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+    <button class="w3-button w3-padding-16">
+        Characters <i class="fa fa-caret-down"></i>
+      </button><div class="w3-dropdown-hover">
+      
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="/characters/alisa.html" class="w3-bar-item w3-button">Alisa</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
+    </div>
   </div>
-</div>
 
 <!-- Sidebar -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a>
-  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <h4 class="w3-bar-item"><b>Quick Links</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="">Link</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>

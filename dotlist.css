@@ -1,0 +1,23 @@
+.dotlist ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  .dotlist ul > li {
+    display: inline;
+  }
+  
+  .dotlist ul > li::after {
+    font-weight: bold;
+    content: ' · ';
+    white-space: nowrap;
+  }
+  
+  .dotlist ul > li:last-of-type::after {
+    display: none;
+  }
+  
+  [class^="infobox"] .dotlist ul {
+    margin: 0;
+  }
+  

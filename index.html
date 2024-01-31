@@ -1,14 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>IronFist Wiki</title>
-        <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-        <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
-    </head>
-    <body>
-        <h1>Testing Testing 123</h1>
-        <a href="/bryan.html" title="Bryan Fury">Bryan Fury</a>
-    </body>
+---
+layout: default
+title: Home
+---
 
-</html>
+<!-- Posts Index
+================================================== -->
+<div class="blog-grid-container">
+    {% for post in paginator.posts %}
+        {% include postbox.html %}
+    {% endfor %}
+</div>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>
+

@@ -3,6 +3,23 @@
     "character_description": "Insert character_description here",
     "moves": [
         [
+            "1",
+            {
+                "input": "<b>1</b>",
+                "hit_property": "high",
+                "damage": 5,
+                "counter_damage": "6",
+                "recoverable_damage": "0",
+                "chip_damage": "1",
+                "startup_frames": "10",
+                "on_block": "-2",
+                "on_hit": "+9",
+                "on_counter": "+4",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
             "1,1",
             {
                 "input": "<b>1</b>",
@@ -32,6 +49,7 @@
                 "status": "standing",
                 "notes": "<ul><li>CH only combo</li> <li>loses to sidewalk right (on axis)</li> <li>you will get counter-hit if you mash</li></ul>"
             }
-        ]
+        ],
+        []
     ]
 }

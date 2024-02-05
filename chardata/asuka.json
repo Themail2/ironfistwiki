@@ -8,10 +8,10 @@
                 "input": "<b>1</b>",
                 "hit_property": "high",
                 "damage": 5,
-                "counter_damage": 6,
-                "recoverable_damage": 0,
-                "chip_damage": 1,
-                "startup_frames": 10,
+                "counter_damage": "6",
+                "recoverable_damage": "0",
+                "chip_damage": "1",
+                "startup_frames": "10",
                 "on_block": "-2",
                 "on_hit": "+9",
                 "on_counter": "+4",
@@ -30,7 +30,6 @@
                 "on_hit": "+4",
                 "on_counter": "+4",
                 "status": "standing",
-                "strings_into": [],
                 "notes": "CH only combo, loses to sidewalk right (on axis), you will get counter-hit if you mash"
             }
         ]

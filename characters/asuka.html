@@ -80,7 +80,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
             .then(data => {
                 // Process the JSON data
                 console.log(data);
-                
+                huge_concat = '';
+                for (var i = 0; i < data.moves.length; i++) 
+                {
+                  for (var x = 0; i < data.moves[x].length; i++) 
+                  {
+
+                  }
+                }
                 // Example: Display some data on the page
                 document.getElementById('jsonOutput').innerHTML = `
                     <p>Name: ${data.moves[0]}</p>
@@ -91,16 +98,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 
   </script>
-  <div id="jsonOutput">
-
-  </div>
     <div class="w3-row w3-padding-64">
         <div class="w3-container">
-            <h1 class="w3-text-teal w3-center">Asuka Kazama</h1>
+            <h1 class="w3-text-teal w3-center">Asuka Kazama</h1>   
             <p style="text-align: left;">Asuka moves and data</p>
             <details id="1,1">
               <summary>1,1</summary>
-              <table>
+              <table class="w3-table">
                 <tr><td>Move</td><td>Move Type</td><td>Damage</td><td>NC?</td><td>OnBlock</td><td>OnHit</td></tr>
                 <tr><td>1</td><td>High</td><td>Damage</td><td>NC?</td><td>OnBlock</td><td>OnHit</td></tr>
               </table>
@@ -110,6 +114,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         </div>
     </div>
 
+    <div id="jsonOutput">
+
+    </div>
 <!-- END MAIN -->
 </div>
 

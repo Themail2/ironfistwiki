@@ -30,7 +30,7 @@
                 "on_hit": "+4",
                 "on_counter": "+4",
                 "status": "standing",
-                "notes": "CH only combo, loses to sidewalk right (on axis), you will get counter-hit if you mash"
+                "notes": "<ul><li>CH only combo</li> <li>loses to sidewalk right (on axis)</li> <li>you will get counter-hit if you mash</li></ul>"
             }
         ]
     ]

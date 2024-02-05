@@ -17,6 +17,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   bottom: 0;
   height: inherit;
 }
+summary {
+      padding: 10px; /* Adjust the padding as needed */
+      background-color: #f0f0f0; /* Optional: Add a background color for better visibility */
+      cursor: pointer; /* Optional: Change cursor on hover for better user experience */
+      font-size: large;
+      font-weight: bold;
+      padding-left: 5px;
+    }
 </style>
 </head>
 <body>
@@ -84,7 +92,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                 for (var i = 0; i < data.moves.length; i++) 
                 { // Construct the top of the div
                   huge_concat += `<details id=${data.moves[i][0]}>
-                  <summary style="font-size: 20px; font-weight: bold;">${data.moves[i][0]}</summary>
+                  <summary >${data.moves[i][0]}</summary>
                   <table class="w3-table w3-striped w3-bordered">
                   <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
                   `

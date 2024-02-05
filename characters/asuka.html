@@ -83,16 +83,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                 huge_concat = '';
                 for (var i = 0; i < data.moves.length; i++) 
                 { // Construct the top of the div
-                  huge_concat += 
-                  `<details id=${data.moves[i][0]}>
+                  huge_concat += `<details id=${data.moves[i][0]}>
                   <summary><h2>${data.moves[i][0]}</h2></summary>
                   <table class="w3-table">
                   <tr><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
                   `
                   for (var x = 0; i < data.moves[x].length-1; i++) 
                   {
-                    huge_concat += 
-                    `<tr><td>${data.moves[i][i+1].input}</td><td>${data.moves[i][i+1].hit_property}</td><td>${data.moves[i][i+1].damage}</td><td>${data.moves[i][i+1].counter_damage}</td><td>${data.moves[i][i+1].recoverable_damage}</td><td>${data.moves[i][i+1].chip_damage}</td><td>${data.moves[i][i+1].startup_frames}</td><td>${data.moves[i][i+1].on_block}</td><td>${data.moves[i][i+1].on_hit}</td><td>${data.moves[i][i+1].on_counter}</td><td>${data.moves[i][i+1].status}</td><td>${data.moves[i][i+1].notes}</td></tr>
+                    huge_concat += `<tr><td>${data.moves[i][x+1].input}</td><td>${data.moves[i][x+1].hit_property}</td><td>${data.moves[i][x+1].damage}</td><td>${data.moves[i][x+1].counter_damage}</td><td>${data.moves[i][x+1].recoverable_damage}</td><td>${data.moves[i][x+1].chip_damage}</td><td>${data.moves[i][x+1].startup_frames}</td><td>${data.moves[i][x+1].on_block}</td><td>${data.moves[i][x+1].on_hit}</td><td>${data.moves[i][x+1].on_counter}</td><td>${data.moves[i][x+1].status}</td><td>${data.moves[i][x+1].notes}</td></tr>
                     `
                   }
                   huge_concat += `</table>

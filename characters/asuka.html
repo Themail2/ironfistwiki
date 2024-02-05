@@ -83,7 +83,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                 
                 // Example: Display some data on the page
                 document.getElementById('jsonOutput').innerHTML = `
-                    <p>Name: ${JSON.stringify(data.moves[0], null, 2)}</p>
+                    <p>Name: ${data.moves[0]}</p>
                     <p>Email: ${data.moves[2].damage}</p>
                 `;
             })

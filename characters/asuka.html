@@ -85,8 +85,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                 { // Construct the top of the div
                   huge_concat += `<details id=${data.moves[i][0]}>
                   <summary style="font-size: 20px; font-weight: bold;">${data.moves[i][0]}</summary>
-                  <table class="w3-table w3-bordered tr td">
-                  <tr><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
+                  <table class="w3-table w3-striped w3-bordered">
+                  <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
                   `
                   for (var x = 0; x < data.moves[i].length-1; x++) 
                   {

@@ -3,7 +3,9 @@
     "character_description": "Insert character_description here",
     "moves": [
         [
-            "1",
+            {
+                "move_input": "1"
+            },
             {
                 "input": "<b>1</b>",
                 "hit_property": "high",
@@ -20,7 +22,9 @@
             }
         ],
         [
-            "1,1",
+            {
+                "move_input": "1,1"
+            },
             {
                 "input": "<b>1</b>",
                 "hit_property": "high",

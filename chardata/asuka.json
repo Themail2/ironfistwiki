@@ -5,6 +5,7 @@
         [
             "1,1",
             {
+                "input": "<b>1</b>",
                 "hit_property": "high",
                 "damage": 5,
                 "counter_damage": 6,
@@ -18,6 +19,7 @@
                 "notes": "its a jab!"
             },
             {
+                "input": "1,<b>1</b>",
                 "hit_property": "mid",
                 "damage": 15,
                 "counter_damage": 18,

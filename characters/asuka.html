@@ -82,17 +82,24 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                 console.log(data);
                 huge_concat = '';
                 for (var i = 0; i < data.moves.length; i++) 
-                {
-                  for (var x = 0; i < data.moves[x].length; i++) 
+                { // Construct the top of the div
+                  huge_concat += 
+                  `<details id=${data.moves[i][0]}>
+                  <summary><h2>${data.moves[i][0]}</h2></summary>
+                  <table class="w3-table">
+                  <tr><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
+                  `
+                  for (var x = 0; i < data.moves[x].length-1; i++) 
                   {
-
+                    huge_concat += 
+                    `<tr><td>${data.moves[i][i+1].input}</td><td>${data.moves[i][i+1].hit_property}</td><td>${data.moves[i][i+1].damage}</td><td>${data.moves[i][i+1].counter_damage}</td><td>${data.moves[i][i+1].recoverable_damage}</td><td>${data.moves[i][i+1].chip_damage}</td><td>${data.moves[i][i+1].startup_frames}</td><td>${data.moves[i][i+1].on_block}</td><td>${data.moves[i][i+1].on_hit}</td><td>${data.moves[i][i+1].on_counter}</td><td>${data.moves[i][i+1].status}</td><td>${data.moves[i][i+1].notes}</td></tr>
+                    `
                   }
+                  huge_concat += `</table>
+                              </details>`
                 }
                 // Example: Display some data on the page
-                document.getElementById('jsonOutput').innerHTML = `
-                    <p>Name: ${data.moves[0]}</p>
-                    <p>Email: ${data.moves[2].damage}</p>
-                `;
+                document.getElementById('jsonOutput').innerHTML = huge_concat;
             })
             .catch(error => console.error('Error fetching JSON:', error));
 
@@ -102,20 +109,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
         <div class="w3-container">
             <h1 class="w3-text-teal w3-center">Asuka Kazama</h1>   
             <p style="text-align: left;">Asuka moves and data</p>
-            <details id="1,1">
-              <summary>1,1</summary>
-              <table class="w3-table">
-                <tr><td>Move</td><td>Move Type</td><td>Damage</td><td>NC?</td><td>OnBlock</td><td>OnHit</td></tr>
-                <tr><td>1</td><td>High</td><td>Damage</td><td>NC?</td><td>OnBlock</td><td>OnHit</td></tr>
-              </table>
-            
-              
-            </details>
         </div>
     </div>
 
     <div id="jsonOutput">
-
     </div>
 <!-- END MAIN -->
 </div>

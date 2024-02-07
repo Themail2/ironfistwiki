@@ -7,7 +7,7 @@
                 "move_input": "1"
             },
             {
-                "input": "<b>1</b>",
+                "input": "1",
                 "hit_property": "high",
                 "damage": 5,
                 "counter_damage": "6",
@@ -52,6 +52,2381 @@
                 "on_counter": "+4",
                 "status": "standing",
                 "notes": "<ul><li>CH only combo</li> <li>loses to sidewalk right (on axis)</li> <li>you will get counter-hit if you mash</li></ul>"
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": ""
+            },
+            {
+                "input": "",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
             }
         ]
     ]

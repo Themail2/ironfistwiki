@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>IronFist Wiki</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -16,6 +17,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   top: 43px;
   bottom: 0;
   height: inherit;
+}
+summary {
+      padding: 10px; /* Adjust the padding as needed */
+      background-color: #f0f0f0; /* Optional: Add a background color for better visibility */
+      cursor: pointer; /* Optional: Change cursor on hover for better user experience */
+      font-size: large;
+      font-weight: bold;
+      padding-left: 5px;
+    }
+td tr{
+  text-align: center;
 }
 </style>
 </head>
@@ -74,12 +86,43 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
 
-    <div class="w3-row w3-padding-64">
-        <div class="w3-container">
-            <h1 class="w3-text-teal w3-center">Alisa Bosconovitch</h1>
-            <img src="/assets/images/alisa-splashart.png">
-            <p>Put info here.</p>
-        </div>
+  <script>
+    fetch('https://ironfist.wiki/chardata/alisa.json') // Adjust the URL based on your local server configuration
+            .then(response => response.json())
+            .then(data => {
+                // Process the JSON data
+                console.log(data);
+                huge_concat = '';
+                huge_concat += `
+                <div class="w3-row w3-padding-64">
+                  <div class="w3-container">
+                    <h1 class="w3-text-teal w3-center">${data.character_name}</h1>   
+                      <p style="text-align: left;">${data.character_description}</p>
+                    </div>
+                </div>`
+                for (var i = 0; i < data.moves.length; i++) 
+                { // Construct the top of the div
+                  huge_concat += `<details id=${data.moves[i][0].move_input}>
+                  <summary >${data.moves[i][0].move_input}</summary>
+                  <table class="w3-table w3-striped w3-bordered">
+                  <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
+                  `
+                  for (var x = 0; x < data.moves[i].length-1; x++) 
+                  {
+                    huge_concat += `<tr><td>${data.moves[i][x+1].input}</td><td>${data.moves[i][x+1].hit_property}</td><td>${data.moves[i][x+1].damage}</td><td>${data.moves[i][x+1].counter_damage}</td><td>${data.moves[i][x+1].recoverable_damage}</td><td>${data.moves[i][x+1].chip_damage}</td><td>${data.moves[i][x+1].startup_frames}</td><td>${data.moves[i][x+1].on_block}</td><td>${data.moves[i][x+1].on_hit}</td><td>${data.moves[i][x+1].on_counter}</td><td>${data.moves[i][x+1].status}</td><td>${data.moves[i][x+1].notes}</td></tr>
+                    `
+                  }
+                  huge_concat += `</table>
+                              </details>`
+                }
+                // Example: Display some data on the page
+                document.getElementById('jsonOutput').innerHTML = huge_concat;
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+
+
+  </script>
+    <div id="jsonOutput">
     </div>
 <!-- END MAIN -->
 </div>

@@ -1,14 +1,688 @@
 
 {
-    "character_name": "",
+    "character_name": "Alisa",
     "character_description": "Insert character_description here",
     "moves": [
         [
             {
-                "move_input": ""
+                "move_input": "1"
             },
             {
-                "input": "",
+                "input": "1",
+                "hit_property": "high",
+                "damage": "5",
+                "counter_damage": "6",
+                "recoverable_damage": "0",
+                "chip_damage": "1",
+                "startup_frames": "10",
+                "on_block": "+1",
+                "on_hit": "+8",
+                "on_counter": "+8",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "1,1"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "5",
+                "counter_damage": "6",
+                "recoverable_damage": "1",
+                "chip_damage": "1",
+                "startup_frames": "10",
+                "on_block": "+1",
+                "on_hit": "+8",
+                "on_counter": "+8",
+                "status": "standing",
+                "notes": "its a jab! NC into 1 follow up"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "18",
+                "counter_damage": "21",
+                "recoverable_damage": "5",
+                "chip_damage": "5",
+                "startup_frames": "21",
+                "on_block": "-3",
+                "on_hit": "+5",
+                "on_counter": "+14",
+                "status": "standing",
+                "notes": "jab follow up, KND on counter hit"
+            }
+        ],
+        [
+            {
+                "move_input": "1,2"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "5",
+                "counter_damage": "6",
+                "recoverable_damage": "1",
+                "chip_damage": "1",
+                "startup_frames": "10",
+                "on_block": "+1",
+                "on_hit": "+8",
+                "on_counter": "+8",
+                "status": "standing",
+                "notes": "its a jab! NC into 1 follow up"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "10",
+                "counter_damage": "6",
+                "recoverable_damage": "3",
+                "chip_damage": "3",
+                "startup_frames": "12",
+                "on_block": "-3",
+                "on_hit": "+8",
+                "on_counter": "+8",
+                "status": "standing",
+                "notes": "standard 1,2"
+            }
+        ],
+        [
+            {
+                "move_input": "1"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "1,2,2"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "1,2,d+2"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "d+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "2,(HoB)2"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "(HoB)2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "2,3,3"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "3",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            },
+            {
+                "input": "3",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "2,3,4"
+            },
+            {
+                "input": "2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "3",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            },
+            {
+                "input": "4",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "3,2"
+            },
+            {
+                "input": "3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "3,f+2"
+            },
+            {
+                "input": "3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "f+2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "4"
+            },
+            {
+                "input": "4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "1+2"
+            },
+            {
+                "input": "1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "f+2,1"
+            },
+            {
+                "input": "f+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "1",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "f+2,3,3"
+            },
+            {
+                "input": "f+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "3",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            },
+            {
+                "input": "3",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "f+3,2"
+            },
+            {
+                "input": "f+3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "f+3,1+2"
+            },
+            {
+                "input": "f+3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "1+2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "f+4,1,4"
+            },
+            {
+                "input": "f+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "1",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            },
+            {
+                "input": "4",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
+            }
+        ],
+        [
+            {
+                "move_input": "f+1+2"
+            },
+            {
+                "input": "f+1+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "f+3+4"
+            },
+            {
+                "input": "f+3+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            }
+        ],
+        [
+            {
+                "move_input": "df+1,1,2"
+            },
+            {
+                "input": "df+1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -20,14 +694,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -43,11 +712,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "df+1,4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "df+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -56,16 +725,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -81,11 +745,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "df+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "df+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -94,17 +758,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "df+3,3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "df+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -113,16 +777,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -138,11 +797,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+2,4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -151,16 +810,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -176,11 +830,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -189,17 +843,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+4,1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -208,16 +862,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1+2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -233,11 +882,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -246,17 +895,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -265,17 +914,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "db+1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "db+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -284,16 +933,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "db+2,2"
+            },
             {
-                "move_input": ""
+                "input": "db+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -309,11 +972,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "db+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "db+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -322,17 +985,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "db+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "db+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -341,16 +1004,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "b+1,1+2"
+            },
             {
-                "move_input": ""
+                "input": "b+1",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1+2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -365,11 +1042,25 @@
             }
         ],
         [
+            {
+                "move_input": "b+2,1"
+            },
             {
-                "move_input": ""
+                "input": "b+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -384,11 +1075,25 @@
             }
         ],
         [
+            {
+                "move_input": "b+2,3"
+            },
             {
-                "move_input": ""
+                "input": "b+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -403,11 +1108,25 @@
             }
         ],
         [
+            {
+                "move_input": "b+2,4"
+            },
             {
-                "move_input": ""
+                "input": "b+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -423,11 +1142,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "b+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -436,16 +1155,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b+4,3"
+            },
+            {
+                "input": "b+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -460,11 +1193,25 @@
             }
         ],
         [
+            {
+                "move_input": "b+4,4"
+            },
             {
-                "move_input": ""
+                "input": "b+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -480,11 +1227,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "b+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -493,16 +1240,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "b+3+4,3+4"
+            },
             {
-                "move_input": ""
+                "input": "b+3+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3+4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -518,11 +1279,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b+2+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "b+2+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -531,17 +1292,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "ub+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "ub+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -550,17 +1311,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "ub+3+4,1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "ub+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -569,17 +1330,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "u+3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "u+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -588,17 +1349,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "uf+1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "uf+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -607,17 +1368,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "uf+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "uf+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -626,16 +1387,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "uf+3,(HoB)2"
+            },
             {
-                "move_input": ""
+                "input": "uf+3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "(HoB) 2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -650,11 +1425,25 @@
             }
         ],
         [
+            {
+                "move_input": "uf+4,4"
+            },
             {
-                "move_input": ""
+                "input": "uf+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -670,11 +1459,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "uf+3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "uf+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -683,16 +1472,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "f,f+2,3"
+            },
             {
-                "move_input": ""
+                "input": "f,f+2",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -708,10 +1511,24 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "f,f+3,4,4"
             },
             {
-                "input": "",
+                "input": "f,f+3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
+            },
+            {
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -723,14 +1540,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -746,11 +1558,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "f,f+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "f,f+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -759,17 +1571,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "f,f+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "f,f+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -778,17 +1590,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b,b+1+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "b,b+1+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -797,17 +1609,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "f,f,f+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "f,f,f+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -816,16 +1628,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "f,f,f+3,4"
+            },
             {
-                "move_input": ""
+                "input": "f,f,f+3",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -841,11 +1667,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WR f+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WR f+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -854,16 +1680,30 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
+            {
+                "move_input": "ub+4,1,1,2,1,1,3+4,3,2,2"
+            },
             {
-                "move_input": ""
+                "input": "ub+4",
+                "hit_property": "high",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -875,14 +1715,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -894,14 +1729,23 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
+            },
             {
-                "move_input": ""
+                "input": "2",
+                "hit_property": "",
+                "damage": "",
+                "counter_damage": "",
+                "recoverable_damage": "",
+                "chip_damage": "",
+                "startup_frames": "",
+                "on_block": "",
+                "on_hit": "",
+                "on_counter": "",
+                "status": "",
+                "notes": ""
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -913,14 +1757,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -932,14 +1771,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "3+4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -951,14 +1785,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -970,14 +1799,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -989,14 +1813,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1012,11 +1831,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WS 1,2,3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WS 1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1025,16 +1844,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1046,14 +1860,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1069,11 +1878,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WS 2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WS 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1082,17 +1891,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WS 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WS 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1101,17 +1910,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "During Clockwork 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "During Clockwork 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1120,17 +1929,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "During Clockwork d+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "During Clockwork d+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1139,17 +1948,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WS 4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WS 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1158,17 +1967,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WS 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WS 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1177,17 +1986,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "FC 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "FC 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1196,17 +2005,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "SS 4,1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "SS 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1215,16 +2024,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1+2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1240,11 +2044,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BT 4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BT 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1253,17 +2057,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "FUFF 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "FUFF 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1272,17 +2076,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "FUFF 1+2,3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "FUFF 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1291,16 +2095,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "3",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1316,11 +2115,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "d+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "d+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1329,17 +2128,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Enters Destructive Form Stance"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF 1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF 1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1348,17 +2147,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF 2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1367,16 +2166,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "(HoB)2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1392,11 +2186,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1405,17 +2199,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f+1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1424,17 +2218,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f+2,1,2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1443,16 +2237,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1464,14 +2253,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1487,11 +2271,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f+1+2,1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1500,16 +2284,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "1+2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1525,11 +2304,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF d+1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF d+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1538,17 +2317,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF d+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF d+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1557,17 +2336,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF b+2,1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF b+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1576,17 +2355,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF uf+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF uf+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1595,17 +2374,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF uf+1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF uf+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1614,17 +2393,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF+BT 1 or 2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF+BT 1 or 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1633,17 +2412,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1652,17 +2431,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1671,17 +2450,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF d+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF d+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1690,17 +2469,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF d+3,2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF d+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1709,17 +2488,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF b+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF b+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1728,17 +2507,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f,f"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f,f",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1747,17 +2526,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF b,b"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF b,b",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1766,17 +2545,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "f+3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "f+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1785,17 +2564,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Puts Alisa in Boot(BOOT) stance"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT d or b"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT d or b",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1804,17 +2583,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Shifts to Backup"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT 1,2,1,3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT 1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1823,16 +2602,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1844,14 +2618,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "1",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1863,14 +2632,9 @@
                 "on_counter": "",
                 "status": "",
                 "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
             },
             {
-                "input": "",
+                "input": "3+4",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -1886,11 +2650,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT 2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1899,17 +2663,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1918,17 +2682,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT 4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1937,17 +2701,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BOOT 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BOOT 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1956,17 +2720,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DF f+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DF f+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1975,17 +2739,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Puts Alisa in DualBoot(DBOOT) stance"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT 1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT 1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -1994,17 +2758,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT 2,1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2013,17 +2777,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2032,17 +2796,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT 4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2051,17 +2815,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2070,17 +2834,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT f+1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT f+1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2089,17 +2853,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "DBOOT f+2,2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "DBOOT f+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2108,16 +2872,11 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
-            }
-        ],
-        [
-            {
-                "move_input": ""
+                "status": "standing",
+                "notes": "its a jab!"
             },
             {
-                "input": "",
+                "input": "2",
                 "hit_property": "",
                 "damage": "",
                 "counter_damage": "",
@@ -2133,11 +2892,11 @@
         ],
         [
             {
-                "move_input": ""
+                "move_input": "db+3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "db+3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2146,17 +2905,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Puts Alisa in Backup(BKP) stance"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BKP 1"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BKP 1",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2165,17 +2924,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BKP 2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BKP 2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2184,17 +2943,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BKP 3"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BKP 3",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2203,17 +2962,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BKP 4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BKP 4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2222,17 +2981,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "BKP 1+2"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "BKP 1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2241,17 +3000,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "1+3 (Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "1+3 (Throw)",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2260,17 +3019,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "1 or 2 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "2+4 (Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "2+4 (Throw)",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2279,17 +3038,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "1 or 2 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "1+3 or 2+4 (LeftSide Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "1+3 or 2+4 (LeftSide Throw)",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2298,17 +3057,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "1 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "1+3 or 2+4 (RightSide Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "1+3 or 2+4 (RightSide Throw)",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2317,17 +3076,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "2 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "1+3 or 2+4 (Behind Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "1+3 or 2+4 (Behind Throw)",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2336,17 +3095,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Unbreakable"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "uf+1+2 (Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "uf+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2355,17 +3114,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "1+2 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "FC db+1+2 (Throw)"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "FC db+1+2",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2374,17 +3133,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "1+2 break"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "b+1+3 or b+2+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "b+1+3 or b+2+4",
+                "hit_property": "Parry",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2393,17 +3152,17 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "Only Parries Highs"
             }
         ],
         [
             {
-                "move_input": ""
+                "move_input": "WOD db+3+4"
             },
             {
-                "input": "",
-                "hit_property": "",
+                "input": "WOD db+3+4",
+                "hit_property": "high",
                 "damage": "",
                 "counter_damage": "",
                 "recoverable_damage": "",
@@ -2412,8 +3171,8 @@
                 "on_block": "",
                 "on_hit": "",
                 "on_counter": "",
-                "status": "",
-                "notes": ""
+                "status": "standing",
+                "notes": "its a jab!"
             }
         ]
     ]

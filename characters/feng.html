@@ -99,13 +99,16 @@ td tr{
                     <h1 class="w3-text-teal w3-center">${data.character_name}</h1>   
                       <p style="text-align: left;">${data.character_description}</p>
                     </div>
+                </div>
+                <div class="w3-container">
+                  <table class="w3-table w3-striped w3-bordered">
+                  <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
+                  </table>
                 </div>`
                 for (var i = 0; i < data.moves.length; i++) 
                 { // Construct the top of the div
-                  huge_concat += `<div class="w3-row">
-                  <table class="w3-table w3-striped w3-bordered">
-                  <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
-                  `
+                  huge_concat += `<div class="w3-container">
+                  <table class="w3-table w3-striped w3-bordered">`
                   for (var x = 0; x < data.moves[i].length-1; x++) 
                   {
                     huge_concat += `<tr><td>${data.moves[i][x+1].input}</td><td>${data.moves[i][x+1].hit_property}</td><td>${data.moves[i][x+1].damage}</td><td>${data.moves[i][x+1].counter_damage}</td><td>${data.moves[i][x+1].recoverable_damage}</td><td>${data.moves[i][x+1].chip_damage}</td><td>${data.moves[i][x+1].startup_frames}</td><td>${data.moves[i][x+1].on_block}</td><td>${data.moves[i][x+1].on_hit}</td><td>${data.moves[i][x+1].on_counter}</td><td>${data.moves[i][x+1].status}</td><td>${data.moves[i][x+1].notes}</td></tr>

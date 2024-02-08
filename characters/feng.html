@@ -99,15 +99,15 @@ td {
                 <div class="w3-row w3-padding-64">
                   <div class="w3-container">
                     <h1 class="w3-text-teal w3-center">${data.character_name}</h1>   
-                      <p style="text-align: left;">${data.character_description}</p>
-                    </div>
+                    <p style="text-align: left;">${data.character_description}</p>
+                  </div>
                 </div>
                 <div class="w3-responsive">
-                <div class="w3-container">
-                  <table class="w3-table w3-striped w3-bordered">
-                  <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
-                  </table>
-                </div>`
+                  <div class="w3-container">
+                    <table class="w3-table w3-striped w3-bordered">
+                      <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
+                    </table>
+                  </div>`
                 for (var i = 0; i < data.moves.length; i++) 
                 { // Construct the top of the div
                   huge_concat += `

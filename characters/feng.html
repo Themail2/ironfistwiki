@@ -111,9 +111,9 @@ td {
                 { // Construct the top of the div
                   huge_concat += `
                   <table class="w3-table w3-striped w3-bordered">`
-                  for (var x = 0; x < data.moves[i].length-1; x++) 
+                  for (var x = 1; x < data.moves[i].length-1; x++) 
                   {
-                    huge_concat += `<tr><td>${data.moves[i][x+1].input}</td><td>${data.moves[i][x+1].hit_property}</td><td>${data.moves[i][x+1].damage}</td><td>${data.moves[i][x+1].counter_damage}</td><td>${data.moves[i][x+1].recoverable_damage}</td><td>${data.moves[i][x+1].chip_damage}</td><td>${data.moves[i][x+1].startup_frames}</td><td>${data.moves[i][x+1].on_block}</td><td>${data.moves[i][x+1].on_hit}</td><td>${data.moves[i][x+1].on_counter}</td><td>${data.moves[i][x+1].status}</td><td>${data.moves[i][x+1].notes}</td></tr>
+                    huge_concat += `<tr><td><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                     `
                   }
                   huge_concat += `</table> </div>`

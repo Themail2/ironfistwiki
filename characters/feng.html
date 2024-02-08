@@ -106,10 +106,20 @@ summary {
                 { // Construct the top of the div
                   for (var x = 1; x < data.moves[i].length-1; x++) 
                   {
-                    huge_concat += `<tr><td><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
+                    substrings = ""
+                    cur_pos = x;
+                    while(cur_pos > 0)
+                    {
+                      if(data.moves[i][cur_pos-1].hasOwnProperty(input))
+                      {
+                        substrings += data.moves[i][x].input + ","
+                      }
+                      cur_pos--;
+                    }
+                    huge_concat += `<tr><td><div style="color: rgba(0, 0, 0, 0.5);">${substrings}</div><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                     `
                   }
-                  
+                  huge_concat += `<tr style="width: 5px">`
                 }
                 huge_concat += "</table></div>"
                 // Example: Display some data on the page

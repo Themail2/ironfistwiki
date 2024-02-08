@@ -102,6 +102,7 @@ td {
                       <p style="text-align: left;">${data.character_description}</p>
                     </div>
                 </div>
+                <div class="w3-responsive">
                 <div class="w3-container">
                   <table class="w3-table w3-striped w3-bordered">
                   <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
@@ -117,7 +118,8 @@ td {
                     `
                   }
                   huge_concat += `</table>
-                </div>`
+                </div>
+              </div>`
                 }
                 // Example: Display some data on the page
                 document.getElementById('jsonOutput').innerHTML = huge_concat;

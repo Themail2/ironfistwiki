@@ -98,22 +98,20 @@ summary {
                   </div>
                 </div>
                 <div class="w3-responsive">
-                    <table class="w3-table w3-striped w3-bordered w3-centered">
+                    <table class="w3-table w3-bordered w3-centered">
                       <tr class="w3-theme"><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
-                    </table>
+                    
                   `
                 for (var i = 0; i < data.moves.length; i++) 
                 { // Construct the top of the div
-                  huge_concat += `
-                  <table class="w3-table w3-bordered w3-centered">`
                   for (var x = 1; x < data.moves[i].length-1; x++) 
                   {
                     huge_concat += `<tr><td><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                     `
                   }
-                  huge_concat += `</table>`
+                  
                 }
-                huge_concat += "</div>"
+                huge_concat += "</table></div>"
                 // Example: Display some data on the page
                 document.getElementById('jsonOutput').innerHTML = huge_concat;
             })

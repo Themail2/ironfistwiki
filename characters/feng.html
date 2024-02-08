@@ -33,24 +33,28 @@ table {
 }
 .first_entry {
   border-color: black;
-  border-top: solid 5px;
-  border-left: solid 5px;
-  border-right: solid 5px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 2px;
 }
 .middle_entry {
-  border-left: solid 5px;
-  border-right: solid 5px;
+  border-left: solid 2px;
+  border-right: solid 2px;
   border-color: black;
 }
 .final_entry {
-  border-bottom: solid 5px;
-  border-left: solid 5px;
-  border-right: solid 5px;
+  border-bottom: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 2px;
   border-color: black;
 }
 .single_entry {
-  border: solid 5px;
+  border: solid 2px;
   border-color: black;
+}
+td {
+  border-collapse: collapse;
+  border: solid 2px black;
 }
 </style>
 </head>
@@ -141,26 +145,26 @@ table {
                     console.log("Current Stored substring: ", substrings);
                     if(x == 1 && x == data.moves[i].length-1)
                     {
-                      huge_concat += `<tr class="single_entry"><td style="display: flex; justify-content: space-between;"><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
+                      huge_concat += `<tr class="single_entry"><td><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                       `
                     }
                     else if(x == 1)
                     {
-                      huge_concat += `<tr class="first_entry"><td style="display: flex; justify-content: space-between;"><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
+                      huge_concat += `<tr class="first_entry"><td><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                       `
                     }
                     else if(x < data.moves[i].length)
                     {
-                      huge_concat += `<tr class="middle_entry"><td style="display: flex; justify-content: space-between;}><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
+                      huge_concat += `<tr class="middle_entry"><td><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                       `
                     }
                     else if(x == data.moves[i].length)
                     {
-                      huge_concat += `<tr class="final_entry"><td style="display: flex; justify-content: space-between; "><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
+                      huge_concat += `<tr class="final_entry"><td><span style="color: rgba(0, 0, 0, 0.5);">${substrings}</span><b>${data.moves[i][x].input}</b></td><td>${data.moves[i][x].hit_property}</td><td>${data.moves[i][x].damage}</td><td>${data.moves[i][x].counter_damage}</td><td>${data.moves[i][x].recoverable_damage}</td><td>${data.moves[i][x].chip_damage}</td><td>${data.moves[i][x].startup_frames}</td><td>${data.moves[i][x].on_block}</td><td>${data.moves[i][x].on_hit}</td><td>${data.moves[i][x].on_counter}</td><td>${data.moves[i][x].status}</td><td>${data.moves[i][x].notes}</td></tr>
                       `
                     }
 
-                    substrings += data.moves[i][x].input;
+                    substrings += data.moves[i][x].input + ",";
                   }
                 }
                 huge_concat += "</table></div>"

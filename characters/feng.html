@@ -130,9 +130,10 @@ table {
                 { // Construct the top of the div
                   
                   substrings = "";
+                  onsole.log("Current Move: ", data.moves[i]);
                   for (var x = 1; x < data.moves[i].length; x++) 
                   {
-                    console.log("Current Move: ", data.moves[i][x-1]);
+                    
                     console.log("Current SubString: ", data.moves[i][x].input);
                     console.log("Current X-Value: ", x);
                     console.log("Current Stored substring: ", substrings);

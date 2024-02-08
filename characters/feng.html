@@ -3,7 +3,7 @@
 <head>
 <title>IronFist Wiki</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
@@ -137,6 +137,7 @@ td {
                     <p style="text-align: left;">${data.character_description}</p>
                   </div>
                 </div>
+                <div class="w3-responsive">
                     <table>
                       <thead class="stick">
                       <tr><td>Input</td><td>Properties</td><td>Damage</td><td>CH Damage</td><td>Grey Damage</td><td>Chip</td><td>Startup</td><td>On Block</td><td>On Hit</td><td>On Counter</td><td>Status</td><td>Notes</td></tr>
@@ -177,7 +178,7 @@ td {
                     substrings += data.moves[i][x].input + ",";
                   }
                 }
-                huge_concat += "</table>"
+                huge_concat += "</table></div>"
                 // Example: Display some data on the page
                 document.getElementById('jsonOutput').innerHTML = huge_concat;
             })
